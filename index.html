@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ByeCar - Assinatura de motos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--  Cabeçalho   -->
+    <header>
+        <a href="https://byecar.com.br" target="_blank">
+            <img src="Imagens/logo.svg" alt="Erro" id="logo">
+        </a>
+    </header>
+    <!--  Informações - Imagem da mulher com a moto  -->
+    <section>
+        <div>
+            <h1>
+                Ter uma <strong>moto por assinatura</strong> <br>
+                nunca foi tão fácil!
+            </h1>
+            <img src="Imagens/moto.svg" width="650px" alt="Erro">
+            <h1>
+                Agora ficou muito mais barato <br>
+                e fácil ter uma moto!
+            </h1>
+        </div>
+        <!--  Div Call to Action - cards com as motos  -->
+        <div id="cards">
+            <section>
+                <img class="setas" src="Icones/seta-esquerda.svg" onclick="voltarCard()" id="back" alt="Erro">
+                <img src="Imagens/card-scooter.svg" width="520px" onclick="adicionarHref()" id="card" alt="Erro">
+                <img class="setas" src="Icones/seta-direita.svg" onclick="passarCard()" id="next" alt="Erro">
+            </section>
+
+        <a id="linkHonda" href="#"></a>
+        <a id="linkVoltz" href="#"></a>
+
+            <a 
+            target="_blank" 
+            href="https://wa.me/5521975877461?text=Quero
+            +saber+mais+sobre+assinatura+de+motos%21">
+
+            <button type="button">BORA ASSINAR?</button>
+            </a>
+
+        </div>
+
+    </section>
+
+<!-- Script -->
+<script src="index.js"></script>
+
+</body>
+
+</html>
