@@ -26,7 +26,7 @@ adicionarHref = () => {
         linkVoltz.href = "https://wa.me/5521975877461?text=Quero+saber+mais+sobre+a+Voltz+EV1%21%21";
         window.open(linkVoltz.href, "_blank");
 
-    //=============================================================================   
+        //=============================================================================   
     } else if (srcCardDestaque.endsWith('Imagens/card-hondaCB.svg')) {
         linkHonda.href = "https://wa.me/5521975877461?text=Quero+saber+mais+sobre+a+Honda+CB500X%21%21";
         window.open(linkHonda.href, "_blank");
