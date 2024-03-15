@@ -1,4 +1,5 @@
-# Figma-Lp-comp
+# LandingPage Aluguel de Veiculos
+
 Projeto de desenvolvimento/Estudo sobre PM (Product Manager) | Projeto: Simulação de Discovery para uma startup e criação de uma LP.
 
 Neste repositório, temos uma Landing Page criada por mim, a partir de um protótipo também criado por mim no Figma.
